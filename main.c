@@ -69,7 +69,7 @@ u32 main(void){
 				RemoveFromFront(List1, &ReturnValue);
 				
 			}
-			else if((DelBook>1) && (DelBook <(List1->Size))){             /* if user entered 4 to view no. of available books*/
+			else if((DelBook>1) && (DelBook <(List1->Size))){             
 				
 			RemoveMiddleNode(DelBook,List1);}
 				
@@ -82,7 +82,7 @@ u32 main(void){
 			printf("\n---------------------------------------------\n");
 			
 			
-		}else if(x==4){
+		}else if(x==4){               /* if user entered 4 to view no. of available books*/
 			
 			printf("The Number of available Books is : %d\n",(List1->Size));
 			printf("\n---------------------------------------------\n\n");
